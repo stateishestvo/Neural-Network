@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nn"
+version = "0.1.0"
+description = ""
+authors = ["statishestvo <baz.22@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^21.5"
+tensorflow = "^2.17.0"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+numpy = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
